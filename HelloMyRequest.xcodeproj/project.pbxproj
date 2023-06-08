@@ -14,6 +14,7 @@
 		63FE2D43236212CD00E50D21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63FE2D42236212CD00E50D21 /* Assets.xcassets */; };
 		63FE2D46236212CD00E50D21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63FE2D44236212CD00E50D21 /* LaunchScreen.storyboard */; };
 		63FE2D4E2362133C00E50D21 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63FE2D4D2362133C00E50D21 /* ViewModel.swift */; };
+		E75B210E2A318D8A00FE4238 /* TravelModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75B210D2A318D8A00FE4238 /* TravelModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		63FE2D45236212CD00E50D21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		63FE2D47236212CD00E50D21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63FE2D4D2362133C00E50D21 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		E75B210D2A318D8A00FE4238 /* TravelModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 				63FE2D3B236212CC00E50D21 /* SceneDelegate.swift */,
 				63FE2D3D236212CC00E50D21 /* ViewController.swift */,
 				63FE2D4D2362133C00E50D21 /* ViewModel.swift */,
+				E75B210D2A318D8A00FE4238 /* TravelModel.swift */,
 				63FE2D3F236212CC00E50D21 /* Main.storyboard */,
 				63FE2D42236212CD00E50D21 /* Assets.xcassets */,
 				63FE2D44236212CD00E50D21 /* LaunchScreen.storyboard */,
@@ -153,6 +156,7 @@
 				63FE2D3A236212CC00E50D21 /* AppDelegate.swift in Sources */,
 				63FE2D4E2362133C00E50D21 /* ViewModel.swift in Sources */,
 				63FE2D3C236212CC00E50D21 /* SceneDelegate.swift in Sources */,
+				E75B210E2A318D8A00FE4238 /* TravelModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

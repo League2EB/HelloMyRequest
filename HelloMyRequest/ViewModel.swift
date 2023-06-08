@@ -49,5 +49,26 @@ class ViewModel {
             task.resume()
         }
     }
+
+    func requestData() {
+        let url = URL(string: "https://travelapi.besttour.com.tw/api/query_list_all.asp")!
+
+        var request = URLRequest(url: url)
+        request.httpMethod = "POST"
+
+        let task = URLSession.shared.dataTask(with: request) { data, response, error in
+            guard let data = data else {
+                print(String(describing: error))
+                return
+            }
+            do {
+                let model = try JSONDecoder().decode(TravelModel.self, from: data)
+                dump(model)
+            } catch {
+                print(error.localizedDescription)
+            }
+        }
+        task.resume()
+    }
 }
 
